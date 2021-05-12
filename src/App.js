@@ -29,7 +29,6 @@ function App() {
 
                     <Toolbar set={setCon} get={getCon}/>
                     <Card set={setCon}/>
-
                     <Switch>
 
                         <Route exact path="/">
