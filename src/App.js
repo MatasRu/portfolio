@@ -31,7 +31,7 @@ function App() {
                     <Card set={setCon}/>
                     <Switch>
 
-                        <Route exact path="/portfolio">
+                        <Route exact path="/">
                             <About/>
                         </Route>
 
