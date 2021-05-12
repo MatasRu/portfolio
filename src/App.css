@@ -2,7 +2,6 @@
 body{
     overflow: hidden;
 }
-
 .background {
     color: rgba(255, 255, 255, 0.55);
     background: #26262d;
@@ -30,7 +29,6 @@ body{
     animation: Blocks2 40s infinite;
     opacity: 0.1;
 }
-
 @keyframes Blocks {
     0% {
         bottom: -350px;
@@ -41,7 +39,6 @@ body{
         transform: rotate(360deg);
     }
 }
-
 @keyframes Blocks2 {
     0% {
         bottom: -300px;
@@ -52,8 +49,6 @@ body{
         transform: rotate(0deg);
     }
 }
-
-
 .main-box {
     width: 67%;
     color: white;
@@ -61,7 +56,6 @@ body{
     letter-spacing: 2px;
     overflow: hidden;
 }
-
 
 /*Toolbar*/
 .toolbar {

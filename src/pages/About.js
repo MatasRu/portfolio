@@ -1,7 +1,7 @@
 function About() {
     return (
         <div className="pageBg scroll fade-in">
-            <div className="pageContent">
+            <div className="pageContent fade-in">
                 <div className="header">
                     <h2><span className="orange">About</span> Me</h2>
                     <div className="headerBorder"/>
