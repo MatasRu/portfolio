@@ -316,6 +316,45 @@ body{
     width: 50%;
 }
 
+/*CONTACTS*/
+.email{
+    margin-top: 20px;
+}
+.email input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FF9800;
+    font-size: 16px;
+    color: white;
+}
+.email input:focus{
+    outline: none;
+}
+.text-input{
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FF9800;
+    font-size: 16px;
+    color: white;
+    height: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-input:focus{
+    outline: none;
+}
+.send{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.send:hover{
+    color: #FF9800;
+}
+
 
 
 .content-font{
@@ -345,7 +384,17 @@ body{
 .mt-75 {
     margin-top: 75px;
 }
+.mt-20{
+    margin-top: 20px;
+}
 
 .t-align{
     text-align: center;
+}
+
+.j-space{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
 }
